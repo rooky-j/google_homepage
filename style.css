@@ -1,0 +1,31 @@
+.wrapper {
+    position: relative;
+    top: 16%;
+    text-align: center;   
+    top: 16%;
+}
+
+.logo {
+    display: inline-block;
+    padding: 30 0 20 0;
+    text-align: center;
+}   
+
+.buttons {
+    padding: 10px;
+    margin: 30px 5px 5px 5px;
+    border: none; 
+    border-radius: 5px;
+}
+
+input {
+    width: 580px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px #CCC;
+}
+form {
+    padding: 10px;
+}
