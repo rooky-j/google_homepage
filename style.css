@@ -2,14 +2,31 @@ body {
     margin: 0;
     padding: 0;
 }
-.top-nav {
+
+nav {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
+nav li {
+    list-style: none;
+    display: inline-block;
+}
 
-.top-nav a {
-    text-decoration: none; 
-    color: #222222;
+nav a {
+    text-decoration: none;  
+    color: #222;
+    padding-left: 5px;
+}
+
+.nav-left {
+    
+}
+
+.nav-right {
+    margin: -15px 35px 0 0;
+
 }
 
 .wrapper {
